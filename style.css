@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100&family=Pacifico&display=swap');
+*{
+    margin: 0
+}
+body{
+    background-image: url(veselo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    font-family: 'Pacifico', cursive;
+    padding: 15px 5%;
+    background-color: #fdebe1;
+    position: fixed;
+    width: 100%
+}
+header>*{
+    display: inline-block;
+    width: 450px;
+}
+.pustota{
+    width: 5%;
+}
+a{
+    text-decoration:none;
+    color: black;
+    margin: 0 10px;
+}
+.banner{
+    padding: 20% 5%;
+    color: white;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+.post{
+    padding: 10px 5%;
+    text-align:center;
+    font-family: 'Onest', sans-serif;
+    background-color: #fdebe1;
+}
+.post>*{
+    display: inline-block;
+    width: 450px;
+    font-size: 30px;
+    vertical-align:middle;
+}
+.gap{
+    height: 500px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+#connection{
+    background-image: url(hhru.jpg);
+    background-attachment: fixed;
+    padding: 15% 30%;
+
+}
+#connection>div{
+    padding: 10px;
+    background-color: #fdebe1;
+    text-align:center;
+    font-size: 30px;
+    border: soild 4px black;
+}
+footer{
+    background-color: blake;
+    padding: 10px 0;
+    text-align:center;
+    color: white;
+}
+.add{
+    background-color: rgb(0, 0, 0, 0.5);
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
